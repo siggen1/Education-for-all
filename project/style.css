@@ -1,13 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 
 body {
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-size:14px, 1.2rem;
 }
   
+@font-face{
+    font-family: 'Lato';
+    src: url(../assets/fonts/Lato/Lato-Thin.ttf)
+}
 
 @font-face{   /* Sjekk om dette stemmer*/
     font-family:'Montserrat';
     src: url(../assets/fonts/Montserrat-Bold.ttf)
 }
+
+header {
+    
+}
+
 
 h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
